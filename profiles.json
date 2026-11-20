@@ -1,0 +1,24 @@
+{
+  "speed": {
+    "backend": "compiled",
+    "params": {
+      "d_model": 128,
+      "d_state": 8,
+      "head_dim": 16,
+      "batch_size": 288,
+      "memory_order": 7,
+      "escape_scale": 4
+    }
+  },
+  "quality": {
+    "backend": "compiled_fused",
+    "params": {
+      "d_model": 128,
+      "d_state": 8,
+      "head_dim": 16,
+      "batch_size": 48,
+      "memory_order": 10,
+      "escape_scale": 4
+    }
+  }
+}

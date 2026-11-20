@@ -1,0 +1,29 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+
+# Native extension: compile on the target machine
+*.so
+*.pyd
+*.o
+*.obj
+*.tmp
+build/
+dist/
+*.egg-info/
+
+# Generated codec outputs and local measurements
+data/*_compressed.dat
+data/*_decompressed.dat
+results.json
+*.log
+
+# Local editor/OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
