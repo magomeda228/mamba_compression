@@ -44,11 +44,7 @@ Python-таблицы. Первый запуск дольше из-за комп
 
 ## Исходники
 
-Базовая LSTM: [LSTMcompressor, Evgeny Belyaev](https://ctlab.itmo.ru/gitlab/eabelyaev/lstmcompressor).
-`lstm_codec.py` сохранён без изменений. Mamba-2 реализована в `mamba2.py`.
-
-Арифметический кодер: [Project Nayuki](https://github.com/nayuki/Reference-arithmetic-coding).
-Лицензия этого компонента приведена ниже.
+Базовая LSTM `lstm_codec.py` сохранён без изменений. Mamba-2 реализована в `mamba2.py`.
 
 Copyright © 2026 Project Nayuki. (MIT License)
 
