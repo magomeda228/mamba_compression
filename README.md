@@ -68,9 +68,4 @@ subject to the following conditions:
 
 Source: https://github.com/nayuki/Reference-arithmetic-coding
 
-Обновление runtime: собственные GPU-ядра удалены. Нормировка — обычная
-RMSNorm на PyTorch; компиляция использует dynamic=False для повторяемого
-кодирования и отдельного декодирования. Новые CUDA-сигнатуры — FCP2/FSB2.
-Старые архивы FCP1/FSB1 нужно пересоздать из оригинала. Внутренний компилятор
-PyTorch может использовать свои GPU-ядра; кодек не подключает ручные ядра.
 # mamba_compression
